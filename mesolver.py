@@ -5,17 +5,6 @@ from scipy.linalg import eig, inv
 
 ''' 
 Author - Daniel J. Whiting 
-Date modified - 10/08/2017
-
-A program written to solve the master equation for an N level atom 
-interacting with laser light.
-
---- Installation ---
-Requires standard python including numpy, scipy and qutip packages.
---- Usage ---
-User specifies system Hamiltonian and other important information
-including Rabi frequencies and atomic transition decay rates.
---- Changelog ---
 '''
 
 kB=1.380658e-23
